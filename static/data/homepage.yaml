@@ -1,0 +1,119 @@
+about: '# About
+
+The Data Semantics Lab is located in the Department of 
+Computer Science at Kansas State University.  
+
+(put rest of content here)'
+
+address: '**Contact Info:**
+
+*Data Semantics (DaSe) Laboratory*
+
+Center for Artificial Intelligence and Data Science (CAIDS)
+
+Department of Computer Science
+
+Kansas State University
+
+2224 Engineering Hall
+
+1701D Platt St.
+
+Manhattan, KS 66506
+
+United States of America'
+
+slider:
+  dots: false
+  infinite: true
+  speed: 500
+  slidesToShow: 1
+  slidesToScroll: 1
+  autoplay: true
+  autoplaySpeed: 3000
+  fade: true
+
+photos:
+  - image: PXL_20220911_191441014.jpg
+    caption: A part of DaSe Lab during Zip-lining (2022)
+
+  - image: WhatsApp Image 2022-06-14 at 2.38.53 AM (3).jpeg
+    caption: Abhilekha Dalal visiting IIIT Delhi, June 2022
+
+  - image: DSC_0046.JPG
+    caption: Pascal Hitzler (right) receiving the 2022 Carl R. Ice College of Engineering
+      Recognition by the Graduate Student Council
+
+  - image: img-20211212-wa0001_3.jpg
+    caption: Abhilekha Dalal's Master Graduation
+
+  - image: IMG_8020.PNG
+    caption: Successful (and virtual) PhD defense by Monireh Ebrahimi
+
+  - image: amir-defense.JPG
+    caption: Successful (and virtual) PhD defense by Amir Yazdavar
+
+  - image: LuZhou-defense2 3.jpg
+    caption: Successful (and virtual) PhD defense by Lu Zhou
+
+  - image: 1393465206.jpg
+    caption: DaSeLab February 2020
+
+  - image: 2020-07-15-cogan-defense-all.png
+    caption: Successful (and virtual) PhD defense by Cogan Shimizu
+
+  - image: IMG_20191028_191352196.jpg
+    caption: Adila Krisnadhi, Cogan Shimizu, Raghava Mutharaju, at ISWC 2019 in Auckland,
+      New Zealand
+
+  - image: 1848118195.jpg
+    caption: DaSeLab October 2019
+
+  - image: Rama-defense-2.png
+    caption: Rama Chittella Master Thesis Defense, July 2019
+
+  - image: 2018-04-03-daselab.jpg
+    caption: DaSeLab April 2018
+
+  - image: photo.jpg
+    caption: Lu Zhou Ph.D. Proposal Defense, April 2019
+
+  - image: daselab-iswc_0.jpg
+    caption: 'DaSe Lab at ISWC 2018: Cogan Shimizu, Michelle Cheatham, Md Kamruzzaman
+      Sarker, Lu Zhou'
+
+  - image: 2018-07-14-raghava_edited.jpg
+    caption: Raghava Mutharaju visiting, July 2018
+
+  - image: 2018-04-MSU-Enslaved-cropped.jpeg
+    caption: After 3 days of intensive ontology modeling for the history of the slave
+      trade, at Michigan State University, April 2018
+
+  - image: 2017-09-26-daselab-2.jpg
+    caption: DaSeLab, September 2017
+
+  - image: 20171021_105909 (1280x720).jpg
+    caption: DaSeLab at ISWC2017 (with alumnus David Carral)
+
+  - image: 20171216_121313 (1280x719).jpg
+    caption: Amit Joshi commencement
+
+  - image: 2017-raghava-commencement.jpg
+    caption: 'Raghava Mutharaju''s (2nd from left) commencement, May 2017. Left: Prabhaker
+      Mateti, Committee Member'
+
+  - image: amitjoshidefense-2.jpg
+    caption: 'Amit Joshi''s PhD defense: Subhashini Ganapathi, Pascal Hitzler (advisor),
+      Michelle Cheatham, Amit Joshi, TK Prasad, Guozhu Dong'
+
+  - image: 2016-04-29-shimizu-raymer-s.jpg
+    caption: Cogan Shimizu (left) receiving the 2016 college outstanding BS-CS student
+      award. Mike Raymer on the right.
+
+  - image: 2016-04-30-adila-commencement.jpg
+    caption: 'Commencement April 2016: Dr. Adila Krisnadhi'
+
+  - image: P1110786-edited.JPG
+    caption: 'After Raghava''s Dissertation defense. From left: Prabhaker Mateti, Derek
+      Doran, Raghava Mutharaju, Pascal Hitzler. Committee members Freddy Lecue and Frederick
+      Maier not shown.'

@@ -1,0 +1,1171 @@
+a-decision-support-reasoner:
+  description: 'PI: Pascal Hitzler'
+  from: 2010-4-1
+  funding_agency: Lockheed-Martin
+  title: A Decision Support Reasoner
+  to: 2010-6-1
+
+a-modeling-workshop-for-data-in-agriculture:
+  description: 'Funded under the program Training in Data Science for Agriculture:
+    Foundational Tools for Distance Learning by the Midwest Big Data Hub.
+
+    PI: Cogan Shimizu
+
+    Data in Agriculture VoCamp'
+  from: 2020-11-1
+  funding_agency: Midwest Big Data Hub
+  title: A Modeling Workshop for Data in Agriculture
+  to: 2021-7-1
+
+aligning-neural-networks-to-human-semantics:
+  description: ''
+  from: 2019-5-1
+  funding_agency: Sensors Directorate of the Air Force Research Laboratory (AFRL/RY)
+  title: Aligning Neural Networks to Human Semantics
+  to: 2019-8-1
+
+biowrap-bioplastics-with-regenerative-agricultural-properties:
+  description: 'Lead PI: Vaishali Sharda
+
+    DaSeLab is contributing to knowledge graph based data integration and management
+    under guidance of Pascal Hitzler.
+
+    Official project website.'
+  from: 2022-2-1
+  funding_agency: National Science Foundation
+  title: 'BioWRAP (Bioplastics With Regenerative Agricultural Properties): Spray-on
+    bioplastics with growth synchronous decomposition and water, nutrient, and agrochemical
+    management'
+  to: 2026-2-1
+
+consuming-and-reusing-semantic-geoscience-data:
+  description: 'This project is a collaboration with Thomas Narock at Marymount University.
+
+    WSU Investigators: Pascal Hitzler, Nazifa Karima, Adila Krisnadhi
+
+    Marymount Investigator: Thomas Narock
+
+    See https://osf.io/bh63s/ for more details.'
+  from: 2016-2-1
+  funding_agency: Earth Science Information Partners (ESIP)
+  title: Consuming and Reusing Semantic Geoscience Data
+  to: 2016-12-1
+
+convergence-accelerator-phase-i-raise-spatially:
+  description: "Lead PI: Krzysztof Janowicz, UCSB\nCo-PIs: Pascal Hitzler (K-State),\
+    \ Dean Rehberger (MSU), Wenwen Li (ASU), Mark Schildhauer (UCSB)\nThe NSF Convergence\
+    \ Accelerator supports team-based, multidisciplinary efforts that address challenges\
+    \ of national importance and show potential for deliverables in the near future.\n\
+    The broader impact and potential societal benefit of this Convergence Accelerator\
+    \ Phase I project will be to help connect the vast community of geographic information\
+    \ systems users in industry, government agencies, academia, and the broader public,\
+    \ to knowledge graphs. Knowledge graphs consist of interlinked pieces of information\
+    \ about our world. By connecting data across different domains, multimedia formats,\
+    \ and perspectives, knowledge graphs enable users to ask more complicated questions\
+    \ and arrive at a more holistic understanding of complex physical and social processes.\
+    \ This project focuses on the tools needed to identify and link space and time\
+    \ for knowledge graphs. These tools are important because everything happens somewhere\
+    \ and at some time and because knowing where and when things happen is critical\
+    \ to understanding why and how they happen. Currently geographic information systems\
+    \ in use in academia, industry, and governments are not yet well integrated with\
+    \ knowledge graphs. This project's highly interdisciplinary team (representing\
+    \ four major universities, three industry partners, and two government agencies)\
+    \ will demonstrate how to develop common models, methods, and services to enable\
+    \ the publication, retrieval, reuse, analysis, and inference of spatial and temporal\
+    \ data for knowledge graphs across domain boundaries. The team plans to will apply\
+    \ the techniques developed to applications such as soil health, hydrology, and\
+    \ urban planning. Expected project results will give domain experts and the broader\
+    \ public free and open access to data and analysis functions that will link otherwise\
+    \ disconnected knowledge about extreme events, soil health, smart farming, and\
+    \ urban planning together. The open knowledge network envisioned in this effort\
+    \ has the potential to provide easier access to knowledge graph data which may\
+    \ improve opportunities for many sectors that rely on connecting to geographic\
+    \ information system data.\nPlaces connect people, entities, and events together\
+    \ and, thus, are a densely interconnected part of all general-purpose knowledge\
+    \ graphs to date. Nonetheless, individual domains have developed their own (often\
+    \ incompatible) ways to represent places as well as space and time more generally.\
+    \ For instance, there is no agreed upon method to spatio-temporally restrict statements\
+    \ such as changing national boundaries. Similarly, established machine-learning\
+    \ techniques used to infer new knowledge graph statements or to summarize existing\
+    \ ones typically ignore spatial and temporal aspects and, thus, fall short of\
+    \ their full potential. Finally, existing efforts cannot handle numerical or multi-modal\
+    \ data such as satellite imagery. The overarching theme of this Phase I project\
+    \ is to reach convergence on how to efficiently represent, retrieve, and analyze\
+    \ the spatial and temporal aspects present in almost all datasets irrespective\
+    \ of the individual disciplines they originate from, resulting in interoperability\
+    \ instead of domain-specific and potentially incompatible solutions. During phase\
+    \ I the team will review state-of-the-art methods, models, and services; harmonize\
+    \ them across domain boundaries; develop spatially and temporally explicit machine-learning\
+    \ methods and tools to better represent, analyze, and infer spatial and temporal\
+    \ data; and provide best practices for other open knowledge networks.\nNSF News\
+    \ Release \nSee also the Modular Ontology Engineering Portal for some of our work\
+    \ on this project."
+  from: 2019-9-1
+  funding_agency: NSF
+  title: 'Convergence Accelerator Phase I (RAISE): Spatially-Explicit Models, Methods,
+    and Services for Open Knowledge Networks'
+  to: 2021-5-1
+
+demonstration-of-semantic-web-technologies-as-applied-to-surface-water-feature-classification:
+  description: 'PI: Michelle Cheatham
+
+    Co-PIs: Pascal Hitzler, Adila Krisnadhi'
+  from: 2016-7-1
+  funding_agency: USGS
+  title: Demonstration of Semantic Web Technologies as Applied to Surface Water Feature
+    Classification
+  to: 2017-6-1
+
+dicoy-distributed-computing-for-the-web:
+  description: 'Research Incentive Fund.
+
+    PI: Pascal Hitzler'
+  from: 2010-5-1
+  funding_agency: Wright State University Research Council
+  title: DiCoy - Distributed Computing for the Web Ontology Language
+  to: 2011-6-1
+
+drisi-data-rich-interlinked-scientometrics-installations:
+  description: 'This project is a collaboration with Krzysztof Janowicz of STKO Lab
+    at University of California, Santa Barbara.
+
+    Please see the Semantic Web journal Scientometrics installation as example for
+    an early demonstrator.
+
+    Our colleagues at STKO UCSB realized the MIE2015 Scientometrics installation.
+
+    WSU PI: Pascal Hitzler
+
+    UCSB PI: Krzysztof Janowicz'
+  from: 2015-4-1
+  funding_agency: IOS Press
+  title: DRISI - Data-Rich Interlinked Scientometrics Installations
+  to: 2016-7-1
+
+earthcube-building-blocks-geolink-leveraging-semantics:
+  description: 'See http://www.geolink.org/ for more information.
+
+    The National Science Foundation''s EarthCube program has set out to establish
+    concepts and approaches to create integrated data infrastructures across the Geosciences.
+    On of its key challenges is to enable and simplify data publishing, discovery,
+    access, reuse, and integration in a sustainable way. Existing data repositories
+    and networks must be linked, while retaining their independent missions and services
+    to existing disciplinary communities. Cultural, conceptual, and infrastructural
+    heterogeneities must be respected in order to maintain different perspectives,
+    topics, granularities, and differing priorities and thus foster inclusivity in
+    the EarthCube endeavor. In particular, individual choices made by providers of
+    data or repositories will need to be respected in an inclusive manner, and approaches
+    to integration must reflect this. At the same time, however, the diversity and
+    heterogeneity of geoscience data presents a significant barrier to its discovery
+    and reuse.
+
+    The NSF EarthCube Building Block project GeoLink addresses these challenges by
+    1) digital publication of geoscience data and knowledge as "Linked Open Data";
+    combined with 2) semantic integration by way of describing data using ontology
+    design patterns and vocabularies shared among federated repositories; and 3) establishing
+    Linked Data and ontology design patterns as an underlying cyberinfrastructure
+    extendable in both depth and breadth, that can become a central building block
+    for EarthCube data harmonization.
+
+    GeoLink focuses on the use of smart data as an alternative to smart applications,
+    and will effectively begin to establish an ontology-based metadata ecostystem
+    which consists of flexibly alignable ontology building blocks.
+
+    GeoLink will greatly enhance the capabilities for scientists to discover and interpret
+    relevant geoscience data and knowledge. It will lower barriers to cross-repository
+    data discovery and access, while respecting and preserving repository autonomy
+    and heterogeneity. The cyberinfrastructure underlying the approach is extendable,
+    sustainable, and affordable - leveraging state of the art developments in Linked
+    Open Data and formal semantics, grounded through shared ontology design patterns.
+    The value of the approach will finally be showcased by developing a Web portal
+    that enables searching and browsing of integrated content from multiple repositories,
+    serving a diverse collection of geoscience communities. munities. The project
+    was showcased in the January 2015 edition of Science magazine.
+
+    Drs Michelle Cheatham and Pascal Hitzler, directors of the Data Semantics (DaSe)
+    Lab at Wright State University, are part of the consortium of collaborators funded
+    with approx. $1.9M by the National Science Foundation through the EarthCube program.
+    GeoLink partner instutitions: LDEO, Columbia University; Woods Hole Oceanographic
+    Institution; NCEAS and Department of Geography, University of California, Santa
+    Barbara; DaSe Lab at Wright State University; Marymount University; Consortium
+    for Ocean Leadership; University of Maryland, Baltimore County.
+
+    Project announcement on the department blog
+
+    WSU PI: Pascal Hitzler
+
+    WSU Co-PI: Michelle Cheatham'
+  from: 2014-9-1
+  funding_agency: National Science Foundation
+  Software: 'WikiMatcher: A Wikipedia-based Ontology Alignment System
+
+    Leveraging Amazon''s Mechanical Turk for Ontology Alignment Verification
+
+    The GeoLink Ontology and data is available from http://www.geolink.org/'
+  title: 'EarthCube Building Blocks: GeoLink - Leveraging Semantics and Linked Data
+    for Data Sharing and Discovery in the Geosciences'
+  to: 2017-8-1
+
+earthcube-building-blocks-leveraging-semantics-and:
+  description: 'This project was also refered to as OceanLink, and it had an immediate
+    follow-up project called GeoLink. See http://www.geolink.org/ for more information.
+
+    WSU PI: Pascal Hitzler'
+  from: 2013-9-1
+  funding_agency: National Science Foundation
+  title: 'EarthCube Building Blocks: Leveraging Semantics and Linked Data for Geoscience
+    Data Sharing and Discovery (OceanLink)'
+  to: 2014-8-1
+
+enslaved-peoples-of-the-historical-slave:
+  description: 'Subcontract to Michigan State University''s Matrix: The Center for
+    Digital Humanities and Social Sciences project "Enslaved: Peoples of the Historic
+    Slave Trade" (PI Dean Rehberger) funded by The Andrew W. Mellon Foundation.
+
+    This is a continuation of Ontology Modeling for the Slave Trade.
+
+    K-State PI: Pascal Hitzler
+
+    See also the Modular Ontology Engineering Portal for some of our work on this
+    project.'
+  from: 2021-2-1
+  funding_agency: The Andrew W. Mellon Foundation
+  title: 'Enslaved: Peoples of the Historical Slave Trade (Enslaved.org)'
+  to: 2024-1-1
+
+erro-efficient-reasoning-with-rules-and:
+  description: 'Project website
+
+    PI: João Leite
+
+    Pascal Hitzler Co-PI'
+  from: 2012-1-1
+  funding_agency: FCT Portugal
+  title: ERRO - Efficient Reasoning with Rules and Ontologies
+  to: 2015-8-1
+
+explainable-machine-reasoning-through-the-application:
+  description: 'Some resources are available from https://github.com/md-k-sarker/ECII-Pipeline.
+
+    A knowledge graph generated from the Wikipedia category hierarchy: https://mdkzaman.com/knowledge-graph-from-wikipedia-category-hierarchy/  -
+    direct download of resulting hierarchy and hierarchy with corresponding Wikipedia
+    page references.'
+  from: 2019-8-1
+  funding_agency: DoD
+  title: Explainable Machine Reasoning through the Application of Linked Data (EMERALD)
+  to: 2021-10-1
+
+expressive-scalable-querying-over-integrated-linked:
+  description: 'Project website
+
+    Pascal Hitzler Co-PI
+
+    Linked Open Data (LOD) is rapidly developing into an open data movement to connect
+    a large variety of data across the World Wide Web using standards adopted by the
+    World Wide Web Consortium (W3C). Driven by researchers, government agencies and
+    companies, the resulting Web of Data has grown to over 1000 datasets and is showing
+    exponential growth. However, simply putting collections of data on the Web will
+    be of very limited value. The key to unlocking the value for developing more powerful
+    search, browsing, exploration and analysis is to richly interlink or semantically
+    integrate components of LOD. Given the size, growth rate, heterogeneity and growing
+    areas of coverage, manual semantic integration or interlinking is not practical.
+    Furthermore, current techniques focus on a construct owl:sameAs that is abused
+    due to limited expressiveness, and hence is ineffective or yields poor quality
+    of integration. What is needed is to be able to represent and identify richer
+    and more explicit relationships between different entities, so that the richness
+    of the real world is not crammed inaccurately and inappropriately into very limited
+    types of relationships. At the same time, exponential growth of the LOD in terms
+    of size and diversity creates challenges to identify and analyze datasets for
+    both human and application consumptions. Even though popular datasets such as
+    DBPedia, Freebase, MusicBrainz are well known and widely used in the community,
+    there can be other hidden gems that will be useful for specialized applications.
+
+    To address the challenges, this project developed exploratory techniques to richly
+    interlink components of LOD, address the challenges of querying the LOD cloud
+    and propose approaches to discover datasets compress and create entity summaries.'
+  from: 2011-9-1
+  funding_agency: National Science Foundation
+  title: Expressive Scalable Querying over Integrated Linked Open Data
+  to: 2014-8-1
+
+flipping-the-classroom-combining-scale-up-and-distance-learning:
+  description: 'Wright State University Teaching Innovation Award
+
+    The Department of Computer Science and Engineering is successfully pursuing multiple
+    efforts to modernize the modes of delivery of its classes. In particular, this
+    includes active learning using SCALE-UP classrooms, and distance learning sections
+    for traditional classes. In this project, we leverage existing infrastructure
+    to create a class setting where a single teacher can provide, within a single
+    class section, both an active learning experience and a distance learning setting,
+    depending on student needs.
+
+    In this project we develop and realize a way to improve the mode of delivery of
+    classes with theoretical content by switching to a flipped classroom active learning
+    experience for the physically attending students, while at the same time catering
+    for students which cannot physically attend the class. The new setting has two
+    main benefits. First, it improves the learning experience by physically attending
+    students. Secondly, it also provides a cost-efficient way to offer a distance
+    learning option for the same class, without the need to establish a separately
+    taught online section.
+
+    PI: Pascal Hitzler'
+  from: 2014-6-1
+  funding_agency: Wright State University
+  title: 'Flipping the Classroom: Combining SCALE-UP and Distance Learning'
+  to: 2015-12-1
+
+high-quality-domain-specific-data-interlinking:
+  description: 'Microsoft Azure Research Award
+
+    In-kind contribution of access to Microsoft high-performance computing facilities
+    for experiments and benchmarking.
+
+    PI: Reihaneh Amini
+
+    Co-PI: Michelle Cheatham'
+  from: 2017-1-1
+  funding_agency: Microsoft
+  title: High-Quality Domain-Specific Data Interlinking
+  to: 2018-1-1
+
+human-centered-big-data:
+  description: 'Within this project, the Data Semantics Laboratory focuses on the
+    development of methods to explain the behavior of deep learning systems.
+
+    Our first experiments concerning the use of DL-Learner to explain trained artificial
+    neural networks.'
+  from: 2016-9-1
+  funding_agency: Ohio Federal Research Network
+  title: Human-Centered Big Data
+  to: 2019-5-1
+  
+iccl-summer-school-2013-semantic-web-ontology-languages-and-their-use:
+  description: 'In support of the ICCL Summer School 2013.
+
+    PI: Steffen Hölldobler
+
+    Pascal Hitzler Co-PI'
+  from: 2013-1-1
+  funding_agency: German Academic Exchange Service (DAAD)
+  title: 'ICCL Summer School 2013: Semantic Web - Ontology Languages and Their Use'
+  to: 2013-9-1
+
+impromat-improving-the-retention-rate-of-computer-science-students-which-are-underprepared-in-mathematics:
+  description: 'Wright State University Teaching Innovation Award
+
+    This project introduced a new freshmen class sequence into the Computer Science
+    curriculum which quadrupled the retention rate of the target group of mathematically
+    underprepared students.
+
+    PI: Pascal Hitzler'
+  from: 2012-6-1
+  funding_agency: Wright State University
+  title: ImproMat - Improving the Retention Rate of Computer Science Students which
+    are Underprepared in Mathematics
+  to: 2013-6-1
+
+information-institute-ii-membership:
+  description: 'Education Partnership Agreement, Membership of Kansas State University
+    in the Information Directorate''s Information Institute (II).
+
+    PI: Arslan Munir.
+
+    Co-PIs: Scott DeLoach, Eugene Vasserman, Mitchell Neilsen, Pascal Hitzler, Lior
+    Shamir, George Amariucai, Balasubramaniam Natarajan'
+  from: 2020-4-1
+  funding_agency: Air Force Research Laboratory
+  title: Information Institute (II) Membership
+  to: 2025-4-1
+
+intelligent-agent-incident-command-system-augmentation:
+  description: In this project we are using ontology design patterns to integrate
+    data from a variety of sources in order to create a knowledge base that informs
+    an agent-based decision support system for incident command teams.
+  from: 2015-6-1
+  funding_agency: National Science Foundation
+  title: Intelligent Agent Incident Command System Augmentation
+  to: 2017-5-1
+
+kno-e-com-knowledge-enabled-content-management:
+  description: 'Research Incentive Grant, see e.g. SEM for follow-up work.
+
+    PI: Pascal Hitzler'
+  from: 2011-4-1
+  funding_agency: State of Ohio
+  title: Kno.e.CoM - Knowledge-enabled Content Management
+  to: 2012-3-1
+
+knowledge-analytics-using-semantic-technologies:
+  description: 'This research project involves ingesting and visualizing multi-modal
+    data with a strong spatial-temporal component. The proposed approach will leverage
+    natural language processing and semantic web technologies. Innovative research
+    regarding the visualization of data with differing levels of confidence will be
+    conducted.
+
+    PIs: Cogan Shimizu, Michelle Cheatham, Pascal Hitzler'
+  from: 2017-5-1
+  funding_agency: Dayton Area Graduate Studies Institute (DAGSI)
+  title: Knowledge Analytics using Semantic Technologies
+  to: 2019-11-1
+
+knowwheregraph-enriching-and-linking-cross-domain:
+  description: 'Consortium-hosted project website: http://www.knowwheregraph.org
+
+    The goal of this project is to improve data-driven decision making and data analytics,
+    specifically data analytics that involve geographic data. This project will create
+    the KnowWhereGraph - a knowledge graph tool that specifically enables other data-analysis
+    knowledge tools that have a geospatial component.
+
+    GeoEnrichment describes the process by which data becomes augmented with a wide
+    range of auxiliary information tailored to a geospatial study area (such as demographic
+    data). GeoEnrichment tools significantly reduce the costs involved in acquiring,
+    entering, and cleaning geo-data. Unfortunately, currently available geoenrichment
+    services provide access to only pre-defined categories of information, do not
+    effectively handle interconnected data, offer limited support for data integration,
+    and are generally expensive. This project plans to make data-driven decision making
+    and data analytics substantially more effective, accessible, and affordable. The
+    project will merge novel Artificial Intelligence-based geoenrichment technologies
+    with a knowledge graph that brings together open, cross-domain, densely integrated
+    data spanning the human-environment interface.
+
+    This project''s work is enabled by an open, freely usable knowledge graph. These
+    graphs are a combination of scalable, Web-standard technologies, specifications,
+    and data cultures for representing densely interconnected statements derived from
+    structured or unstructured data across domains, in both human and machine-readable
+    ways. The technology tools are designed to be useful to and useable by researchers,
+    analysts, decision-makers, and the interested public in any domain or cross-domain
+    activity requiring geospatial intelligence.
+
+    This project includes strong partnerships with non-academic and academic stakeholders
+    including 4 for-profit organizations, 2 government agencies, and one non-profit,
+    as well as five academic partnerships: ESRI (Geographic Information Systems);
+    Oliver Wyman, (commodity markets and supply chains), Princeton Climate Analytics
+    (weather and climate information services), In10T (digital agriculture, farm partnerships);
+    US Geological Survey (USGS), Natural Resources Conservation Service within the
+    U.S. Department of Agriculture (USDA): and DirectRelief (humanitarian aid); as
+    well as University of California Santa Barbara(UCSB), Kansas State University
+    (K-State), Michigan State University (MSU), Arizona State University (ASU), and
+    University of Southern California(USC). Additional partnerships are expected to
+    develop during this Phase II effort.
+
+    The KnowWhereGraph will be a valuable element of the Convergence Accelerator Phase
+    II cohort, providing geospatial tools to the other projects within the cohort.
+    In addition the project plans to focus on several strategic application areas
+    that are likely to benefit US society, including: COVID-19 related supply chain
+    disruptions and the US food, agriculture, and energy sectors, and their attendant
+    supply chains generally; environmental policy issues relative to interactions
+    among agricultural sustainability, soil conservation practice, and farm labor;
+    and delivery of emergency humanitarian aid, within the US and internationally.
+    Anytime knowing where is key, this project''s tools may be helpful.
+
+    Formally, a knowledge graph consists of a massive set of statements, constructed
+    from inter-connected node- and edge-labeled resources, allowing multiple, heterogeneous
+    edges for the same nodes. A collection of definitional statements specifying the
+    meaning of the knowledge graph''s vocabulary is called its (KG) schema or ontology.
+    The ontology is critical for rigorous logical interpretation and machine-actionability.
+    Several innovations in knowledge graph technology will drive the project: (I)
+    creating an open, web-accessible knowledge graph, with attendant methods and tools,
+    to enable contributions to the graph from a range of sources; (II) developing
+    strategies for semantically lifting imagery data, such as remotely sensed imagery
+    and drone imagery, into this graph, thereby integrating vast amounts of data;
+    (III) developing novel spatially-explicit AI-based methods, models, and services
+    to enable geoenrichment on top of this graph; and (IV) developing both programmatic
+    (application program interface, API) and human-accessible interfaces for the KnowWhereGraph.
+    By merging the flexibility, expressive power, and community-driven features of
+    open graph technologies with multi-format geospatial data and advanced geospatial
+    intelligence, the KnowWhereGraph is designed to become a rich, integrative information
+    resource that can transform and converge discovery, analysis, and synthesis within
+    and across a multitude of fields and sectors.
+
+    Krzysztof Janowicz, University of California, Santa Barbara (PI)
+
+    Pascal Hitzler, Kansas State University (Co-PI and PI for the Kansas State University
+    portion)
+
+    Mark Schildhauer, NCEAS at University of California, Santa Barbara (Co-PI)
+
+    Dean Rehberger, Matrix at Michigan State University (Co-PI and PI for the Michigan
+    State University portion)
+
+    Wenwen Li, Arizona State University (Co-PI and PI for the Arizona State University
+    portion)
+
+    Announcement by NSF on the projects funded under this program.'
+  from: 2020-8-1
+  funding_agency: National Science Foundation
+  title: 'KnowWhereGraph: Enriching and Linking Cross-Domain Knowledge Graphs using
+    Spatially-Explicit AI Technologies'
+  to: 2024-7-1
+  
+ldap-linked-data-for-academic-publishing:
+  description: 'This project is a collaboration with Krzysztof Janowicz of STKO Lab
+    at University of California, Santa Barbara.
+
+    WSU Investigators: Michelle Cheatham and Pascal Hitzler
+
+    UCSB PI: Krzysztof Janowicz
+
+    In this project we contributed to the IOS Press LD Connect linked data portal.'
+  from: 2016-9-1
+  funding_agency: IOS Press
+  title: LDAP - Linked Data for Academic Publishing
+  to: 2017-8-1
+
+ldoap-linked-data-and-ontologies-for-academic-publishing:
+  description: 'This project is a collaboration with Krzysztof Janowicz of STKO Lab
+    at University of California, Santa Barbara.
+
+    WSU PI: Pascal Hitzler
+
+    UCSB PI: Krzysztof Janowicz
+
+    In this project we contributed to the IOS Press LD Connect linked data portal.'
+  from: 2015-12-1
+  funding_agency: IOS Press
+  title: LDOAP - Linked Data and Ontologies for Academic Publishing
+  to: 2016-4-1
+
+machine-reasoning-to-identify-inconsistent-knowledge:
+  description: 'PIs: Daniel Schmidt, Pascal Hitzler'
+  from: 2019-5-1
+  funding_agency: Southwestern Ohio Council for Higher Education
+  title: Machine Reasoning to Identify Inconsistent Knowledge
+  to: 2020-11-1
+
+mapping-seed-to-plant-life-cycle-to-predict-yields-integrated-artificial-intelligence-and-data-analytics-approach:
+  description: 'PI: Ajay Sharda, Biological and Agricultural Engineering
+
+    Co-PIs: Ignacio Ciampitti, Trevor Hefley, Pascal Hitzler, Brian McCornack, Hande
+    McGinty
+
+    Announcement
+
+    GRIPex Program'
+  from: 2024-2-1
+  funding_agency: Kansas State University, Game-changing Research Initiation Program
+    (GRIP)
+  title: Mapping Seed-to-Plant Life Cycle to Predict Yields - Integrated Artificial
+    Intelligence and Data Analytics Approach
+  to: 2026-3-1
+
+modular-ontology-modeling-for-food-supply:
+  description: 'As part of the ongoing work for this project, we are continuing to
+    develop CoModIDE (the Comprehensive Modular Ontology Integrated Development Environment)
+    is a plugin for the industry standard, ontology editor Protege.  CoModIDE supports
+    a graphical, pattern-based, drag-and-drop modeling paradigm that is intuitive
+    for new-comers to knowledge engineering.
+
+    www.comodide.com
+
+    www.protege.stanford.edu
+
+    See also the Modular Ontology Engineering Portal.'
+  from: 2019-9-1
+  funding_agency: National Institute of Standards and Technology (NIST)
+  title: Modular Ontology Modeling for Food Supply Chains
+  to: 2021-8-1
+
+network-on-neurosymbolic-ai-for-medicine:
+  description: DaSeLab is Official Partner
+  from: 2024-2-1
+  funding_agency: UK Academy of Medical Sciences
+  title: Network on Neurosymbolic AI for Medicine
+  to: 2025-3-1
+
+ontology-and-semantic-aided-human-cognition-knowledge-discovery:
+  description: Pascal Hitzler Co-PI
+  from: 2009-9-1
+  funding_agency: Henry M. Jackson Foundation
+  title: Ontology and Semantic-Aided Human Cognition Knowledge Discovery
+  to: 2011-8-1
+
+ontology-modeling-for-the-slave-trade:
+  description: 'Subcontract to Michigan State University''s Matrix: The Center for
+    Digital Humanities and Social Sciences project "Enslaved: Peoples of the Historic
+    Slave Trade" (PI Dean Rehberger) funded by The Andrew W. Mellon Foundation.
+
+    DaSeLab coordinates the collaborative work required for the generation of an ontology
+    for the historic slave trade as relevant for the Mellon Foundation project "Enslaved:
+    Peoples of the Historic Slave Trade," and conducts the ontology engineering work
+    required to produce the ontology.
+
+    WSU/K-State PI: Pascal Hitzler
+
+    See also the Modular Ontology Engineering Portal for some of our work on this
+    project.
+
+    Downloads:
+
+    Enslaved Ontology 1.0 (10 April 2019) OWL file
+
+    Enslaved Ontology 1.0 (10 April 2019) Documentation pdf'
+  from: 2018-4-1
+  funding_agency: The Andrew W. Mellon Foundation
+  title: Ontology Modeling for the Slave Trade
+  to: 2020-9-1
+
+open-science-data-in-semantic-web:
+  description: 'Establishing Open Science as the default practice in the academic
+    community is critical. Reporting a research result is more than just the manuscript.
+    It is the actual process undertaken, the data (and metadata), the implemented
+    software (and environment), and more. It is also important to ask questions pertaining
+    to transparency and reproducibility, such as those regarding their reviews, publishing
+    metadata, and, in particular, Where are the data and software that underlie their
+    reported results? By making the connections between these artifacts through Open
+    Science practices, it democratizes research by lowering the barrier of entry to
+    understanding (and replicating) cutting edge research, while simultaneously accelerating
+    novel research by reducing the need to re-implement software or re-collect data.
+    Connecting these components and data in a useful and understandable way is a core
+    mission of Semantic Web research.
+
+    In this project we leverage the leadership and reputation of the Semantic Web
+    journal by IOS Press to demonstrate that the open sharing of data underlying publications
+    can be done without significant overhead and provides significant added value.
+    We will, for this journal, require authors to sustainably publish the data and
+    software underlying their results, include software and data provision as part
+    of the peer review assessment, and publish rich metadata for the supplementary
+    data and software. We will develop technology in support of open science and will
+    work with the community to refine the software and policies that enhance open
+    science for the Semantic Web journal. The approach can serve as a model for other
+    journal editors who seek a blueprint for adopting similar Open Science Data practices.
+
+    This project is a collaboration with STKO lab, University of California, Santa
+    Barbara (Krzysztof Janowicz), and IOS Press, Amsterdam.
+
+    PI: Pascal Hitzler
+
+    Co-PIs: Cogan Shimizu, Krzysztof Janowicz
+
+    Relevant Semantic Web journal blog posts
+
+    2021-01-03 Open Science Data: Impending changes to the review process at the Semantic
+    Web journal
+
+    2021-04-27 Roll-out of Open Science Data Website Update'
+  from: 2020-8-1
+  funding_agency: National Science Foundation (NSF)
+  title: Open Science Data in Semantic Web Research
+  to: 2023-8-1
+
+planetdata-european-network-of-excellence-on-large-scale-data-management:
+  description: 'Project website
+
+    WSU was associated partner.
+
+    WSU contact person: Pascal Hitzler'
+  from: 2010-10-1
+  funding_agency: European Commission
+  title: 'PlanetData: European Network of Excellence on Large-Scale Data Management'
+  to: 2014-9-1
+
+proto-okn-theme-1-safe-agricultural:
+  description: 'Lead PI: Torsten Hahmann, University of Maine
+
+    At Kansas State: Pascal Hitzler, Ganga Hettiarachchi, Hande McGinty'
+  from: 2023-9-1
+  funding_agency: National Science Foundation
+  title: 'Proto-OKN Theme 1: Safe Agricultural Products and Water Graph (SAWGraph):
+    An OKN to Monitor and Trace PFAS and Other Contaminants in the Nation''s Food
+    and Water Systems'
+  to: 2026-8-1
+
+proto-okn-theme-3-an-education:
+  description: 'Lead PI: Cogan Shimizu, Wright State University
+
+    At Kansas State: Pascal Hitzler, Hande McGinty'
+  from: 2023-9-1
+  funding_agency: National Science Foundation
+  title: 'Proto-OKN Theme 3: An Education Gateway for the Proto-OKN'
+  to: 2026-8-1
+
+recovering-the-sources-of-individual-differences:
+  description: 'Some resources are available from https://github.com/md-k-sarker/ECII-Pipeline.
+
+    A knowledge graph generated from the Wikipedia category hierarchy: https://mdkzaman.com/knowledge-graph-from-wikipedia-category-hierarchy/
+    - direct download of resulting hierarchy and hierarchy with corresponding Wikipedia
+    page references.'
+  from: 2019-8-1
+  funding_agency: DARPA
+  title: Recovering the Sources of Individual Differences Unduly-named Errors (ReSIDUE)
+  to: 2021-5-1
+
+reu-supplement-to-open-science-data-in-semantic-web-research:
+  description: 'Research Experiences for Undergraduates supplement to Open Science
+    Data in Semantic Web Research.
+
+    PI: Pascal Hitzler
+
+    Co-PIs: Cogan Shimizu, Krzysztof Janowicz'
+  from: 2020-8-1
+  funding_agency: National Science Foundation
+  title: REU Supplement to Open Science Data in Semantic Web Research
+  to: 2023-8-1
+
+scalable-querying-and-reasoning-over-semantic-data:
+  description: 'Amazon Web Services Research Education Grant is awarded to this project
+    for a period of 2 years.
+
+    Investigators: Raghava Mutharaju, Pascal Hitzler'
+  from: 2015-6-1
+  funding_agency: Amazon AWS
+  title: Scalable Querying and Reasoning over Semantic Data
+  to: 2017-6-1
+
+scalable-reasoning-over-ontology-streams:
+  description: 'Microsoft Azure Research Award
+
+    In-kind contribution of access to Microsoft high-performance computing facilities
+    for experiments and benchmarking.
+
+    PI: Raghava Mutharaju
+
+    Co-PI''s: Pascal Hitzler, Prabhaker Mateti'
+  from: 2015-1-1
+  funding_agency: Microsoft
+  title: Scalable Reasoning over Ontology Streams
+  to: 2016-8-1
+
+sejp-semantically-enabled-journal-portals:
+  description: 'One of the project results was the Scientometrics module for the Semantic
+    Web journal website.
+
+    WSU PI: Pascal Hitzler
+
+    UCSB PI: Krzysztof Janowicz'
+  from: 2012-12-1
+  funding_agency: IOS Press
+  title: SEJP - Semantically-enabled Journal Portals
+  to: 2013-12-1
+
+sem-semantics-enabled-editorial-management:
+  description: 'One of the results of this project was the review management system
+    of the Semantic Web journal.
+
+    WSU PI: Pascal Hitzler
+
+    UCSB PI: Krzysztof Janowicz'
+  from: 2011-7-1
+  funding_agency: IOS Press
+  title: SEM - Semantics-enabled Editorial Management
+  to: 2011-12-1
+
+semdata-semantic-data-management:
+  description: 'SemData is a four year project, started on October 2013, funded under
+    the International Research Staff Exchange Scheme (IRSES) of the EU Marie Curie
+    Actions. As such, it is mainly focused on allowing exchanges of members among
+    the participating institutions, bringing together research leaders across the
+    globe from the relevant communities: the linked data, semantic web and the database
+    systems.
+
+    Project website
+
+    DaSe Lab activities were supported by the National Science Foundation by way of
+    a supplement to the TROn project.
+
+    WSU PI: Pascal Hitzler
+
+    Related Department Blog post'
+  from: 2013-10-1
+  funding_agency: European Commission
+  title: SemData - Semantic Data Management
+  to: 2017-9-1
+
+student-early-career-researcher-support-for-the-2022-u-s-semantic-technologies-symposium-us2ts:
+  description: "Funding to support the 4th U.S. Semantic Technologies Symposium, us2ts.\
+    \ \nPI: Cogan Shimizu, Kansas State University\nCo-PIs: Pascal Hitzler, Kansas\
+    \ State University; Dean Rehberger, Michigan State University, Anne Thessen, University\
+    \ of Colorado at Denver, Hande McGinty, Ohio University"
+  from: 2022-1-1
+  funding_agency: National Science Foundation
+  title: Student & Early Career Researcher Support for the 2022 U.S. Semantic Technologies
+    Symposium (US2TS)
+  to: 2022-12-1
+
+student-support-for-the-2018-u-s-semantic-technologies-symposium-us2ts:
+  description: 'Semantic Web is an inherently multi-disciplinary field. Yet, the division
+    between computer science, natural science and social science limits the formation
+    of a coherent national agenda for exploring emerging trends in Semantic Technologies.
+    There is an urgent need to bring together the U.S. Semantic Web community and
+    begin forming such a research network among Semantic Web practitioners in different
+    domains. The increasing demand of data-intensive research and the multidisciplinary
+    characteristics of Semantic Web applications make it crucial to maintain and expand
+    the existing workforce through outreach to students to foster future scientific
+    innovation across disciplines. The objective of this project is to provide travel
+    supports to ten U.S. student participants to the 1st U.S. Semantic Technologies
+    Symposium (US2TS), which will be held at Dayton, Ohio during March 01-02, 2018.
+    Broader impacts of the project include: Provide opportunities for under-represented
+    groups (women and minorities) and undergraduates in networking, and vision and
+    capacitate building, foster long-lasting interdisciplinary and national-wide collaborations
+    among a new generation of Semantic Web practitioners who will ultimately shape
+    the future of Semantic Web research and application at all levels.
+
+    Cross-disciplinary and cross-sectoral communication and networking among Semantic
+    Web practitioners is the core of US2TS. With an ever-growing dependence on the
+    web, and the continuously increasing importance of large-scale data sharing, integration,
+    and reuse, researchers in various disciplines have taken an increasing interest
+    in the Semantic Web. To connect among the silo efforts, what are needed are community
+    consolidation and the building of a U.S.-based community research network. The
+    symposium will provide a forum by which participants can share information and
+    ideas, coordinate ongoing or planned research activities, foster synthesis and
+    new collaborations, develop community standards, and advance their science and
+    education through communication and the sharing of ideas. Several activities will
+    be organized for the student participants during the symposium. Through the student
+    supports of this project, a big potential of US2TS outputs is the improved understanding
+    and skills of open data and open science among the next generation scientists,
+    as Semantic Web technologies are closely relevant to those topics.
+
+    Further information can be found on the symposium website: http://www.us2ts.org.
+
+    PI Xiaogang Ma
+
+    Co-PI Pascal Hitzler'
+  from: 2017-12-1
+  funding_agency: National Science Foundation
+  title: Student Support for the 2018 U.S. Semantic Technologies Symposium (US2TS)
+  to: 2019-12-1
+
+student-travel-fellowships-2012-reasoning-web-summer-school-and-the-web-reasoning-and-rule-systems-conference:
+  description: 'The project supporteds graduate student participation in the Sixth
+    International Conference on Web Reasoning and Rule Systems (RR 2012) Conference
+    and the Reasoning Web Summer School, held in Vienna, Austria during September
+    10-12, 2012 and September 3-8, 2012 respectively. Specifically, the project provided
+    funds to defray the cost of travel for students enrolled in doctoral programs
+    at US institutions who might not otherwise be able to attend the conference or
+    the summer school because of financial reasons. The Reasoning Web Summer School
+    is designed to introduce graduate students to current research topics and recent
+    advances in web reasoning, and is followed by the RR 2012 conference which included
+    a scientific program of talks and a doctoral consortium that provided a venue
+    for the students to have one-on-one discussions and receive mentoring from some
+    of the leading researchers in semantic web and semantic technologies. The project
+    offers natural integration of research and education and contributes to the training
+    of a new generation of researchers in semantic technologies, an area of growing
+    importance and impact in not only Computer Science but also many application domains
+    that rely on advances in knowledge representation and reasoning on the web e.g.,
+    information retrieval, e-science, e-commerce, e-government, e-health, among others.
+    Additional information about the RR 2012 conference and the Reasoning Web Summer
+    School can be found at: http://www.rr-conference.org/RR2012/.'
+  from: 2012-2-1
+  funding_agency: National Science Foundation
+  title: 'Student Travel Fellowships: 2012 Reasoning Web Summer School and the Web
+    Reasoning and Rule Systems Conference'
+  to: 2013-1-1
+  
+student-travel-fellowships-2013-web-reasoning-and-rule-systems-conference:
+  description: 'Semantic technologies, Linked Open Data, and knowledge representation
+    formalisms such as OWL are beginning to play increasingly important roles across
+    a broad range of applications.Ontology modeling languages, e.g., RDF, OWL, and
+    RIF, enable the inference of implicit knowledge from knowledge that is explicitly
+    encoded in the knowledge base. Web Reasoning and allied fields focus on the design,
+    analysis, and development of ontology languages, study of their theoretical properties,
+    and the design and implementation of effective inference algorithms. There is
+    an urgent need for advanced training of graduate students to conduct research
+    in this area and prepare for academic or industrial careers. Participation in
+    premier research conferences in the area is an essential element of such training.
+
+    The Web Reasoning and Rule Systems conference series, established in 2007, attracts
+    the leading researchers in the field of Web Reasoning, and offers a venue for
+    presentation of the latest advances in the field. The co-location of the conference
+    with the Reasoning Web Summer School makes it also an excellent venue for training
+    graduate students. This project provided travel grants for U.S. based graduate
+    students to attend the 2013 Web Reasoning and Rule Systems Conference scheduled
+    to take place during July 27-29, in Mannheim, Germany. The conference is co-located
+    with the 2013 Reasoning Web Summer School, and also with the 26th International
+    Workshop on Description Logics. In addition to attending the invited and contributed
+    talks at the conference, and the Summer School, the students will benefit from
+    individualized mentoring by established researchers.
+
+    PI: Krzysztof Janowicz
+
+    Pascal Hitzler Co-PI'
+  from: 2013-9-1
+  funding_agency: National Science Foundation
+  title: 'Student Travel Fellowships: 2013 Web Reasoning and Rule Systems Conference'
+  to: 2014-8-1
+
+student-travel-fellowships-2014-web-reasoning-and-rule-systems-conference-and-reasoning-web-summer-school:
+  description: 'Semantic technologies, Linked Open Data, and knowledge representation
+    formalisms such as the Web Ontology Language OWL are beginning to play increasingly
+    important roles across a broad range of applications. There is an urgent need
+    for the advanced training of graduate students to conduct research in this area
+    and to prepare them for academic or industrial careers. Participation in premier
+    research conferences in the area is an essential element of such training. This
+    project provides funds to subsidize the travel expenses of 6 students at U.S.
+    universities to attend the 2014 Web Reasoning and Rules Systems conference, RR2014,
+    and the 2014 Reasoning Web Summer School, held September 8-17 in Athens, Greece.
+
+    The Web Reasoning and Rule Systems conference series, established in 2007, and
+    the annual Reasoning Web Summer School series, attract the leading researchers
+    in the field of Web Reasoning, and offer a venue for presentation of the latest
+    advances in the field. Covered topics include ontology modeling languages, e.g.,
+    RDF, OWL, and RIF, which enable the inference of implicit knowledge from knowledge
+    that is explicitly encoded in the knowledge base. Web Reasoning and related fields
+    focus on the design, analysis, and development of ontology languages, study of
+    their theoretical properties, and the design and implementation of effective inference
+    algorithms. The co-location of the conference and summer school provides form
+    an excellent venue for the training of graduate students. In addition to attending
+    the invited and contributed talks at the conference, and the summer school, the
+    students will benefit from individualized mentoring by established researchers.
+
+    PI Pascal Hitzler
+
+    Co-PI Krzysztof Janowicz'
+  from: 2014-6-1
+  funding_agency: National Science Foundation
+  title: 'Student Travel Fellowships: 2014 Web Reasoning and Rule Systems Conference
+    and Reasoning Web Summer School'
+  to: 2015-5-1
+
+student-travel-fellowships-2015-web-reasoning-and-rule-systems-conference-and-2015-reasoning-web-summer-school:
+  description: 'In support of US student participation at the 2015 Web Reasoning and
+    Rule Systems Conference and the 2015 Reasoning Web Summer School.
+
+    PI: Balder Ten Cate
+
+    Co-PI: Pascal Hitzler'
+  from: 2015-8-1
+  funding_agency: National Science Foundation
+  title: 'Student Travel Fellowships: 2015 Web Reasoning and Rule Systems Conference
+    and 2015 Reasoning Web Summer School'
+  to: 2017-7-1
+
+towards-a-global-food-systems-data-hub-seeding-the-center-for-sustainable-wheat-production:
+  description: 'PIs: Pascal Hitzler (Computer Science), Romulo Lollato (Agronomy)
+
+    Co-PIs: Kelsey Andersen Onofre (Plant Pathology), Hande McGinty (Computer Science),
+    Katherine Nelson (Geography and Geospatial Sciences), Stephen Welch (Agronomy),
+    Terry Griffin (Agricultural Economics), Stacy Hutchinson (College of Engineering),
+    and Xiaomao Lin (Agronomy).
+
+    Changing climate, environmental, socio-political, and economic forces are increasingly
+    straining the global food system’s ability to meet the food and fiber requirements
+    of a growing human population. Despite rapid technological advances, the myriad
+    of interdependencies in this complex system continues to hinder efforts to develop
+    and implement solutions to challenges to food system sustainability in more than
+    a piecemeal fashion. Recent growth in the development of Knowledge Graphs (KGs)
+    as a method of data and knowledge management as well as using KGs to transform
+    large-scale, diverse and complex data and knowledge into analysis offers a means
+    of more systematically and efficiently addressing the complex interdependencies
+    inherent in the global food system. In this project, we develop - with the guidance
+    of stakeholders - a KG focused on sustainable intensification of wheat production
+    as a first step in building a Global Food Systems Data Hub, concomitantly with
+    seeding a Center for Sustainable Wheat Production. An expert elicitation workshop
+    with the goal of defining sustainable wheat systems by major stakeholders across
+    the entire wheat supply chain will kick off the project. Findings from this workshop
+    will later guide the development of a wheat sustainability KG. Simultaneously,
+    the utility of this KG will be illustrated through three wheat-related use cases
+    relevant to the agricultural sector in Kansas and development of a public-facing
+    Data Hub. These efforts will pave the way for Kansas State as the leader in sustainable
+    agriculture data management, production, and application while simultaneously
+    supporting a major economic sector for Kansas by enabling decision support for
+    food security applications, development of policy and management solutions relevant
+    to local stakeholders.
+
+    Announcement
+
+    GRIP Program
+
+    Project homepage
+
+    We thank Ontotext for providing GraphDB.'
+  from: 2023-7-1
+  funding_agency: Kansas State University, Game-changing Research Initiation Program
+    (GRIP)
+  title: 'Towards a Global Food systems Data Hub: Seeding the Center for Sustainable
+    Wheat Production'
+  to: 2026-6-1
+
+towards-undifferentiated-cognitive-agents-determining-gaps-in-comprehension:
+  description: 'PI: Pascal Hitzler
+
+    This is a collaborative effort with the Air Force Research Laboratory (PIs Christopher
+    Myers, Adam Stevens, Benji Maruyama) and Drexel University (PI Dario Salvucci).
+
+    Autonomous systems are a new frontier for pushing sociotechnical advancement.
+    Such systems will eventually become pervasive, involved in everything from manufacturing,
+    healthcare, defense, and even research itself. However, proliferation is stifled
+    by the high development costs and the resulting inflexibility of the produced
+    systems. The current time needed to create and integrate state of the art autonomous
+    systems that operate as team members in complex situations is a 3-15 year development
+    period, often requiring humans to adapt to limitations in the resulting systems.
+    A new research thrust in interactive task learning has begun, calling for natural
+    human-autonomy interaction to facilitate system flexibility and minimize users’
+    complexity in providing autonomous systems with new tasks. In this project, we
+    respond to Laird, et al.’s (2017) call through the development of a cognitive
+    system capable of independently acquiring most required task knowledge and skill
+    to perform a set of tasks.
+
+    Our proposed approach begins with the development of a foundational and generalizable
+    cognitive system that can be transformed into a specialized cognitive agent through
+    written instruction, interactions with its trainers, task experience, and developer
+    intervention (when needed). Specifically, we seek to research and develop an undifferentiated
+    agent (uAgent) that is a set of general-purpose computational cognitive capacities
+    enabling it to read task instructions, iteratively interact with trainers to fill
+    gaps in task knowledge, generate the requisite task knowledge from the instructions,
+    and complete multitasking scenarios of varying complexity. We propose to further
+    specialize the agent to desired levels of task proficiency using the Autonomous
+    Research System (ARES).
+
+    This material is based upon work supported by the Air Force Office of Scientific
+    Research under award number FA9550-18-1-0386.
+
+    Some project outcomes can be found here: https://daselab.cs.ksu.edu/content/domain-ontology-instruction'
+  from: 2018-7-1
+  funding_agency: AFOSR
+  title: 'Towards Undifferentiated Cognitive Agents: Determining Gaps in Comprehension'
+  to: 2022-7-1
+
+travel-fellowships-for-students-from-u-s-2013:
+  description: 'Semantic technologies, are beginning to play increasingly important
+    roles across a broad range of applications. There is an urgent need for advanced
+    training graduate students to conduct research in this area and prepare for academic
+    or industrial careers.
+
+    Participation in premier research conferences in the area is an essential element
+    of such training. This project provided funds to subsidize the travel expenses
+    of students at U.S. universities to attend the 2013 International Semantic Web
+    Conference (ISWC), held October 21-25, 2013 in Sydney, Australia.
+
+    ISWC is a premier international conference which offers a venue for presentation
+    of rigorously peer-reviewed research results in Semantic Web and allied areas.
+    The conference included two events specially targeted to graduate students: The
+    ISWC doctoral consortium offers an opportunity for doctoral students to present
+    their work and receive feedback and mentoring. The ISWC Career Mentoring lunch
+    provides an informal setting for students to discuss all issues pertaining to
+    research careers with senior researchers in the community, and to establish long-term
+    mentoring ties.
+
+    PI: Krzysztof Janowicz
+
+    Co-PI: Pascal Hitzler'
+  from: 2013-9-1
+  funding_agency: National Science Foundation
+  title: Travel Fellowships for Students from U.S. Universities to Attend ISWC 2013
+  to: 2014-8-1
+
+travel-fellowships-for-students-from-u-s-2014:
+  description: 'Semantic technologies are beginning to play increasingly important
+    roles across a broad range of applications. There is an urgent need for advanced
+    training of graduate students to conduct research in this area and prepare for
+    academic or industrial careers. Participation in premier research conferences
+    in the area is an essential element of such training. This project provided funds
+    to subsidize the travel expenses of 10-15 students at U.S. universities to attend
+    the 2014 International Semantic Web Conference (ISWC), held October 19-23, 2014
+    in Riva del Garda, Italy.
+
+    ISWC is a premier international conference which offers a venue for the presentation
+    of rigorously peer-reviewed research results in Semantic Web and related areas.
+    The conference includes two events specially targeted to graduate students: The
+    ISWC doctoral consortium offers an opportunity for doctoral students to present
+    their work and receive feedback and mentoring. The ISWC Career Mentoring lunch
+    provides an informal setting for students to discuss all issues pertaining to
+    research careers with senior researchers in the community, and to establish long-term
+    mentoring ties. This project will enhance the professional development of the
+    participating students, by not only exposing them to the latest research ideas,
+    but also by establishing connections with and receiving feedback from top international
+    researchers.
+
+    PI Pascal Hitzler
+
+    Co-PI''s Michelle Cheatham, Krzysztof Janowicz'
+  from: 2014-6-1
+  funding_agency: National Science Foundation
+  title: Travel Fellowships for Students from U.S. Universities to Attend ISWC 2014
+  to: 2015-5-1
+
+tron-tractable-reasoning-with-ontologies:
+  description: 'The Semantic Web is based on describing the meaning - or semantics
+    - of data on the Web by means of metadata - data describing other data - in the
+    form of ontologies. The World Wide Web Consortium (W3C) has made several recommended
+    standards for ontology languages which differ in expressivity and ease of use.
+    Central to these languages is that they come with a formal semantics, expressed
+    in model-theoretic terms, which enables access to implicit knowledge by automated
+    reasoning. Progress in the adoption of reasoning for ontology languages in practice
+    is currently being made, but several obstacles remain to be overcome for wide
+    adoption on the Web. In this project, we investigate the use of tractable and
+    other ontology languages from several perspectives, with a focus on extending
+    description logics based ontology languages around OWL with further capabilities,
+    while staying tractable if possible. Some of the aspects considered include the
+    integration of rules languages with OWL, paraconsistent and non-monotonic reasoning,
+    ontology modeling advances in particular related to geoscience applications, and
+    reasoning algorithms and tools.
+
+    PI Pascal Hitzler
+
+    NSF award abstract
+
+    This material is based upon work supported by the National Science Foundation
+    under Grant No. 1017225. Any opinions, findings, and conclusions or recommendations
+    expressed in this material are those of the author(s) and do not necessarily reflect
+    the views of the National Science Foundation.
+
+    (last update: December 4, 2017)'
+  from: 2010-9-1
+  funding_agency: National Science Foundation Award Number 1017225
+  Software: 'Information about extending OWL with rules using nominal schemas, including
+    a prototype implementation.
+
+    SROELVn reasoner via Datalog
+
+    OWL approximate reasoner via SROELVn and Datalog
+
+    SparkEL, distributed EL+ reasoner.
+
+    DistEL, distributed EL++ reasoner.
+
+    DQuEL, distributed queue implementation of EL completion rules.
+
+    D-SPARQ, distributed RDF query engine.
+
+    Evaluation framework for string similarity metrics as applied to ontology alignment.
+
+    Nuanced version of the OAEI Conference track generated through a survey of experts.
+
+    Code to conduct ontology reference alignment verfication using Amazon''s Mechanical
+    Turk.
+
+    DBPedia-YAGO property-centric alignment task.
+
+    PropString, a string-based property alignment algorithm.
+
+    Experimental data related to Logical Linked Data Compression.
+
+    Proof of Concept Implementation for Default Logic Based Mapping Language
+
+    Protege plug-in OWLAx (OWL Axiomatizer)
+
+    Protege plug-in ROWL (Modeling OWL with Rules)'
+  title: TROn - Tractable Reasoning with Ontologies
+  to: 2017-8-1
+
+tso-trends-in-science-observatory:
+  description: 'This project is a collaboration with Krzysztof Janowicz of STKO Lab
+    at University of California, Santa Barbara.
+
+    Please see the Semantic Web journal Scientometrics installation as example for
+    an early demonstrator.
+
+    WSU PI: Pascal Hitzler
+
+    UCSB PI: Krzysztof Janowicz'
+  from: 2013-9-1
+  funding_agency: IOS Press
+  title: TSO - Trends in Science Observatory
+  to: 2015-8-1
+
+us2ts-the-1st-u-s-semantic-technologies-symposium:
+  description: "Funding to support the 1st U.S. Semantic Technologies Symposium, us2ts.\
+    \ \nPI: Xiaogang Ma, University of Idaho\nCo-PIs: Pascal Hitzler, Wright State\
+    \ University and Krzysztof Janowicz, University of California, Santa Barbara"
+  from: 2018-2-1
+  funding_agency: Alfred P. Sloan Foundation
+  title: 'US2TS: The 1st U.S. Semantic Technologies Symposium'
+  to: 2019-12-1
+
+water-quality-insights-solution-knowledge-graph-development:
+  description: 'PI:  Pascal Hitzler
+
+    Co-PI: Hande McGinty'
+  from: 2024-8-1
+  funding_agency: Kansas Water Institute
+  title: Water Quality Insights Solution Knowledge Graph Development
+  to: 2026-7-1
