@@ -61,7 +61,6 @@
 
 .parent {
   display: flex;
-  
 }
 
 .infoContainer {
@@ -98,14 +97,18 @@ nav.navbar--fixed-top {
 .profileLink {
   max-width: 200px;
   padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   * { text-align: center; }
 }
 
 .profileImg {
-  scale: 1/1;
   border: var(--borders);
   border-radius: 10px;
+  margin-bottom: 5px;
 }
 
 .sidebarItemTitle_pO2u {
@@ -117,14 +120,15 @@ footer.footer {
   border-top: var(--borders);
 }
 
-body {
-  article:not(.hidden) & {
-    display: none;
-  }
-}
-
 article.margin-bottom--xl {
   padding: 25px;
   border-radius: 10px;
   border: var(--borders);
 }
+
+// FOR PERSONAL WEBSITE
+// body {
+//   article:not(.hidden) & {
+//     display: none;
+//   }
+// }

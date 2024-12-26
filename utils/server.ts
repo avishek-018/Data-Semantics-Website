@@ -5,52 +5,12 @@ import { exec } from 'child_process';
 import chokidar, { FSWatcher } from 'chokidar';
 import { Server } from 'http';
 import { promisify } from 'util'
-import { load } from 'js-yaml';
-import { globSync } from 'fast-glob'
 // Maybe include logging and opentelemetry?
 
 /* 
     WORKFLOW:
     1. Initally Build to Staging Directory, then
-
 */
-
-export function indexPeople() {
-    let people = Object.fromEntries([
-        'Faculty', 
-        'Graduate Students',
-        'Undergraduate Students',
-        'Affiliated Faculty',
-        'Past Graduates',
-        'Other Alumni'
-    ].map((category) => [category, []]));
-
-    globSync('src/pages/people/*/info.yaml').forEach((p) => {
-        const [k ,v] = Object.entries(
-            load(fs.readFileSync(p, 'utf8'))
-        )[0];
-
-        v['slug'] = p.split('/').at(-2);
-
-        if('image_url' in (v as object)) {
-            fs.copyFileSync(
-                `${p.substring(0, p.lastIndexOf('/'))}/${v['image_url']}`,
-                `./static/profiles/${v['image_url']}`
-            );
-
-            v['image_url'] = `profiles/${v['image_url']}`;
-            
-        }
-
-        else {
-            v['image_url'] = 'logo.svg';
-        }
-
-        people[v['title']].push({[k]: v});
-    });
-
-    return people;
-};
 
 export async function webServer() {
     let srv: Server = undefined; 
@@ -73,7 +33,7 @@ export async function webServer() {
         // Build people.yaml and authors.yaml in here
 
         const { stdout, stderr } = await promisify(exec)(
-            `npx docusaurus build --out-dir ${STAGING_DIR}`
+            `yarn build --out-dir ${STAGING_DIR}`
         );
 
         console.info(stdout);
@@ -92,7 +52,7 @@ export async function webServer() {
     }
 
     async function handleException(e: Error) {
-        console.error("Build process failed:", e);
+        console.error("Build process failed: ", e);
 
         if((await fs.stat(STAGING_DIR)).isDirectory()) {
             await fs.remove(STAGING_DIR);

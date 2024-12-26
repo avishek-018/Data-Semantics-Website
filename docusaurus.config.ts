@@ -1,4 +1,4 @@
-import type {Config} from '@docusaurus/types';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 import remarkMath from 'remark-math';
@@ -6,10 +6,10 @@ import rehypeMathjax from 'rehype-mathjax';
 import rehypeHighlight from 'rehype-highlight';
 import rehypeHighlightLines from "rehype-highlight-code-lines";
 
-import {readFileSync} from 'fs'
-import {load} from 'js-yaml';
+import { readFileSync } from 'fs'
+import { load } from 'js-yaml';
 
-import {indexPeople} from './utils';
+import indexPeople from './utils/indexPeople';
 
 const config: Config = {
   title: 'Data Semantics Lab',
