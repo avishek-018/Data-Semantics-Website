@@ -1,25 +1,21 @@
 import Layout from '@theme/Layout';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 export default function Research() {    
     return (
         <Layout>
-            <table>
-                <tr>
-                    <th>Company</th>
-                    <th>Contact</th>
-                    <th>Country</th>
-                </tr>
-                <tr>
-                    <td>Alfreds Futterkiste</td>
-                    <td>Maria Anders</td>
-                    <td>Germany</td>
-                </tr>
-                <tr>
-                    <td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                </tr>
-            </table>
+            <Tabs>
+                <TabItem value="topics" label="Topics" default>
+                    This is an apple 🍎
+                </TabItem>
+                <TabItem value="projects" label="Projects">
+                    This is an orange 🍊
+                </TabItem>
+                <TabItem value="publications" label="Publications">
+                    This is a banana 🍌
+                </TabItem>
+            </Tabs>
         </Layout>
     );
 };

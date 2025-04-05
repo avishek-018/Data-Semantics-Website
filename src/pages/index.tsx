@@ -31,8 +31,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout>
       <div className='parent'>
-        <SliderContainer homepage={homepage} />
-        <div className='infoContainer'>
+      <div className='infoContainer'>
         {['about', 'address'].map((c, i) => (
           <ReactMarkdown 
             key={i}
@@ -41,6 +40,8 @@ export default function Home(): JSX.Element {
           />
         ))}
         </div>
+        <SliderContainer homepage={homepage} />
+        
       </div>
     </Layout>
   );
