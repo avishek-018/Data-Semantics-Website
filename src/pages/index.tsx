@@ -7,12 +7,63 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { JSX } from "react";
+import { JSX, useState, useEffect, useCallback } from "react";
 
 const SliderContainer = ({homepage}): JSX.Element => {
+  const [w, setW] = useState(600);
+  const [height, setHeight] = useState<number | null>(null);
+
+  const resizeSlider = useCallback(event => {
+    setW(Math.floor(window.innerWidth / 2));
+  }, []);
+  
+  useEffect(() => {
+    window.addEventListener('resize', resizeSlider);
+    return () => {
+        window.removeEventListener('resize', resizeSlider);
+    };
+  }, [resizeSlider]);
+
+  useEffect(() => {
+    const img = document.querySelector(".slick-slider img") as HTMLElement | null;
+    if (!img) return;
+  
+    const observer = new ResizeObserver(() => {
+      const rect = img.getBoundingClientRect();
+      setHeight(Math.floor((rect.bottom - rect.top) / 2));
+    });
+  
+    observer.observe(img);
+    return () => observer.disconnect();
+  }, []);
+
+  function Arrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, top: height + "px"}}
+        onClick={onClick}
+      />
+    );
+  }
+
+  const slider = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    fade: true,
+    nextArrow: <Arrow />,
+    prevArrow: <Arrow />
+  };
+
   return (
-    <div className='sliderContainer'>
-      <Slider {...homepage?.slider}>
+    <div className='sliderContainer' style={{width: w}}>
+      <Slider {...slider}>
         {homepage?.photos?.map((entry, index) => (
           <div key={index}>
             <img src={`homepage/${entry.image}`} />
@@ -31,17 +82,17 @@ export default function Home(): JSX.Element {
   return (
     <Layout>
       <div className='parent'>
-      <div className='infoContainer'>
-        {['about', 'address'].map((c, i) => (
-          <ReactMarkdown 
-            key={i}
-            remarkPlugins={[remarkBreaks]} 
-            children={homepage[c]} 
-          />
-        ))}
+        <div className='infoContainer'>
+          <h1>About</h1>
+          {['about', 'address'].map((c, i) => (
+            <ReactMarkdown 
+              key={i}
+              remarkPlugins={[remarkBreaks]} 
+              children={homepage[c]} 
+            />
+          ))}
         </div>
         <SliderContainer homepage={homepage} />
-        
       </div>
     </Layout>
   );

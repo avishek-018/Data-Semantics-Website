@@ -6,4 +6,7 @@
 - Finish Search Bar
 - Make constant Formatting from edges of page
 - Scrape Blog Posts
+- Populate Authors.yaml file
 - Deploy on GitHub Pages
+- Build validator for YAML
+- Pull all PDFs down
