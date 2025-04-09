@@ -10,14 +10,19 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { JSX, useState, useEffect, useCallback } from "react";
 
 const SliderContainer = ({homepage}): JSX.Element => {
-  const [w, setW] = useState(600);
+  const [w, setW] = useState(null);
   const [height, setHeight] = useState<number | null>(null);
 
-  const resizeSlider = useCallback(event => {
-    setW(Math.floor(window.innerWidth / 2));
+  const resizeSlider = useCallback(e => {
+    setW(
+      window.innerWidth <= 996 ? "100%" : 
+      Math.floor(window.innerWidth / 2) + "px"
+    );
   }, []);
   
   useEffect(() => {
+    resizeSlider(null);
+
     window.addEventListener('resize', resizeSlider);
     return () => {
         window.removeEventListener('resize', resizeSlider);
@@ -42,7 +47,7 @@ const SliderContainer = ({homepage}): JSX.Element => {
     return (
       <div
         className={className}
-        style={{ ...style, top: height + "px"}}
+        style={{ ...style, top: height}}
         onClick={onClick}
       />
     );

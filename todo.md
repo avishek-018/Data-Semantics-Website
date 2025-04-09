@@ -10,3 +10,4 @@
 - Deploy on GitHub Pages
 - Build validator for YAML
 - Pull all PDFs down
+- Get Abstracts for every page

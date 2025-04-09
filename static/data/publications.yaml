@@ -2253,7 +2253,7 @@ ontology-design-patterns-for-data-integration-the-geolink-experience:
 
 ontology-design-patterns-for-linked-data-publishing:
     title: Ontology Design Patterns for Linked Data Publishing
-    authors: [ Adila Krisnadhi, Nazifa Karima, Pascal Hitzler, Reihaneh Amini, Víctor RodríguezDoncel, 
+    authors: [ Adila Krisnadhi, Nazifa Karima, Pascal Hitzler, Reihaneh Amini, Víctor Rodríguez-Doncel, 
             Krzysztof Janowicz ]
     year: 2016
     pdf: static/pdf/10-odp-for-linked-data.pdf
@@ -2618,7 +2618,7 @@ ontological-support-of-data-discovery-and-synthesis-in-estuarine-and-coastal-sci
 
 an-ontology-design-pattern-for-chess-games:
     title: An Ontology Design Pattern for Chess Games
-    authors: [ Adila Krisnadhi, Víctor RodríguezDoncel, Pascal Hitzler, Michelle Cheatham, Nazifa Karima, 
+    authors: [ Adila Krisnadhi, Víctor Rodríguez-Doncel, Pascal Hitzler, Michelle Cheatham, Nazifa Karima, 
             Reihaneh Amini, Ashley Coleman ]
     year: 2015
     pdf: static/pdf/2015-wop-linkedchesspattern-main.pdf
@@ -2788,7 +2788,7 @@ ontology-pattern-based-data-integration:
 
 pattern-based-linked-data-publication-the-linked-chess-dataset-case:
     title: 'Pattern-Based Linked Data Publication: The Linked Chess Dataset Case'
-    authors: [ Víctor RodríguezDoncel, Adila Krisnadhi, Pascal Hitzler, Michelle Cheatham, Nazifa Karima, 
+    authors: [ Víctor Rodríguez-Doncel, Adila Krisnadhi, Pascal Hitzler, Michelle Cheatham, Nazifa Karima, 
             Reihaneh Amini, Olaf Hartig, Juan Sequeda, Aidan Hogan ]
     year: 2015
     pdf: static/pdf/DonETAL-PatternBasedLinkedDataLinkedChessCase-COLD2015.pdf

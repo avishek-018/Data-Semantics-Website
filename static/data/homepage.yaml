@@ -1,24 +1,17 @@
 about: >
-  # About
-
   The Data Semantics Lab at Kansas State University is dedicated to 
   advancing research at the intersection of artificial intelligence, 
   knowledge representation, and data science. Our work focuses on neuro-symbolic 
   AI and semantic ontology graphs, aiming to enhance reasoning, learning, and 
-  explainability in these systems. Traditional machine learning models excel at 
+  explainability in these systems. 
+
+  
+  Traditional machine learning models excel at 
   pattern recognition but often struggle with logical inference, common-sense 
   reasoning, and generalization. To address these limitations, we study methods that integrate symbolic 
   reasoning with neural network-based learning, combining the strengths of knowledge 
   graphs, symbolic reasoning, and deep learning. This hybrid approach enables intelligent systems that 
   are more interpretable, capable of logical reasoning, and effective in data-sparse domains.
-
-  A key component of our research involves semantic ontology graphs, which provide a structured, 
-  logic-based representation of knowledge. These graphs enable machines to understand contextual 
-  relationships, perform semantic reasoning, and integrate heterogeneous data sources. Our work 
-  spans ontology engineering, automated ontology learning, and semantic data integration, ensuring 
-  that AI systems can leverage structured knowledge for improved decision-making. By developing and 
-  refining ontologies, it enhances a system's ability to align and unify diverse datasets, enabling more 
-  robust and context-aware applications.
 
 address: >
   **Contact Info:**
@@ -38,16 +31,6 @@ address: >
   Manhattan, KS 66506
 
   United States of America
-
-slider:
-  dots: false
-  infinite: true
-  speed: 500
-  slidesToShow: 1
-  slidesToScroll: 1
-  autoplay: true
-  autoplaySpeed: 3000
-  fade: true
 
 photos:
   - image: PXL_20220911_191441014.jpg
