@@ -5,10 +5,12 @@ by which it is informed by pattern-based methods. In many cases, ontologies are
 designed to be schemas for knowledge graphs; there is a [separate page](/research/knowledge-graphs) 
 documenting our contributions to knowledge graphs foundations and applications.
 
+---
+
 ## Guided Reading
 #### [Modular Ontology Modeling](/publications/modular-ontology-modeling) - *This the key publication to date!*
 #### [Modular Ontologies as a Bridge Between Human Conceptualization and Data](/publications/modular-ontologies-as-a-bridge-between-human-conceptualization-and-data)
-#### [Modeling With Ontology Design Patterns: Chess Games As a Worked Example](modeling-with-ontology-design-patterns-chess-games-as-a-worked-example)
+#### [Modeling With Ontology Design Patterns: Chess Games As a Worked Example](/publications/modeling-with-ontology-design-patterns-chess-games-as-a-worked-example)
 #### [A Tutorial on Modular Ontology Modeling with Ontology Design Patterns: The Cooking Recipes Ontology](/publications/a-tutorial-on-modular-ontology-modeling-with-ontology-design-patterns-the-cooking-recipes-ontology)
 #### [MODL: a Modular Ontology Design Library](/publications/modl-a-modular-ontology-design-library)
 #### [The Enslaved Ontology: Peoples of the Historic Slave Trade](/publications/the-enslaved-ontology-peoples-of-the-historic-slave-trade)
@@ -17,16 +19,147 @@ documenting our contributions to knowledge graphs foundations and applications.
         - [Modeling With Ontology Design Patterns: Chess Games As a Worked Example](/publications/modeling-with-ontology-design-patterns-chess-games-as-a-worked-example)
         - [Ontology Design Patterns for Linked Data Publishing](/publications/ontology-design-patterns-for-linked-data-publishing)
     - *Accompanying Data:*
-        - OWL Files: ([chessgame.owl](/static/files/owl/chessgame.owl), [chessgameshortcuts.owl](/static/files/owl/chessgameshortcuts.owl))
-        - Sample Data for Three Players: ([Full Ontology](/static/files/misc/full_ontology.zip), [Views](/static/files/misc/view_ontology.zip))
+        - OWL Files: ([chessgame.owl](/files/owl/chessgame.owl), [chessgameshortcuts.owl](/files/owl/chessgameshortcuts.owl))
+        - Sample Data for Three Players: ([Full Ontology](/files/misc/full_ontology.zip), [Views](/files/misc/view_ontology.zip))
     - *Related Papers:*
         - [Pattern-Based Linked Data Publication: The Linked Chess Dataset Case](/publications/pattern-based-linked-data-publication-the-linked-chess-dataset-case)
         - [An Ontology Design Pattern for Chess Games](/publications/an-ontology-design-pattern-for-chess-games)
         - [Five Stars of Linked Data Vocabulary Use](/publication/five-stars-of-linked-data-vocabulary-use)
+
+---
+
 ## Tools
-#### [CoModIDE - The Comprehensive Modular Ontology IDE](http://comodide.com/)
-This is 
+### [CoModIDE: The Comprehensive Modular Ontology IDE](http://comodide.com/)
+CoModIDE is an ontology engineering and tooling infrastructure, made in collaboration with Karl Hammar.
+- [Paper](/files/pdf/paper538.pdf)
+- Graphical Ontology Modeling Evaluated ([Paper](/files/pdf/paper538.pdf) and [Presentation](http://videolectures.net/eswc2020_shimizu_paper_111/))
+- [The Upper Ontology Alignment Tool - a Plug-In for CoModIDE](/files/pdf/2021-04-OntoCommons.pdf)
+
+### [InK Browser: The Interactive Knowledge Browser](https://github.com/Joseph-Zalewski/inkbrowser)
+InkBrowser is a knowledge graph browser with a visual component, built with [Flask](flask.palletsprojects.com) and [mxGraph](jgraph.github.io/mxgraph/).
+
+**Installation Guide:**
+1. Fork the Git repository.  
+2. Install [Flask](https://flask.palletsprojects.com/) in a Python virtual environment, with the `venv` folder in the same directory where you put the contents of the Git repo (see Flask installation instructions).  
+3. Set the `FLASK_APP` environment variable to `sdbrowser`.  
+4. Navigate to the parent of the directory `sdbrowser`.  
+5. Activate virtual environment  
+   - **Windows:** `./venv/Scripts/activate`  
+   - **Linux:** `source venv/bin/activate`  
+6. Execute `flask run`.  
+7. Open a web browser and navigate to `127.0.0.1:5000/client`.
+---
 
 ## Additional Resources
 
+### [OWL2DL Rendering](https://github.com/cogan-shimizu-wsu/OWL2dl-m)
+The tool when called with no arguments will launch the GUI. The GUI allows for any number of files from the same directory to be converted simultaneously. 
+Use the `browse` buttons to find input and output directories. If the tool is called from the command line with arguments, it will not launch the GUI.
+
+Usage is: `java GUI_Converter.jar input.owl output`
+
+There is a known bug that some times delays the output of `Job finished`. 
+However, if the `post-processing` line has been printed, the file is safe to move and open.
+
+**Downloads:**
+- [Rendered LaTeX Files from GUI Tool](/files/misc/Output.zip)
+- [Test Set From ontologydesignpatterns.org](/files/misc/Patterns.zip)
+- [The GUI Tool](/files/misc/OWL2DL_Converter.zip)
+
+---
+
+### [SDOnt](https://github.com/cogan-shimizu-wsu/SDont)
+SDOnt is used for generating schema diagrams. It is a prototype implementation of DaSe Lab's method for manually creating schema diagrams. 
+
+Due to file hosting restrictions, the evaluation code has been moved to the [evaluation folder](https://github.com/cogan-shimizu-wsu/SDont/tree/master/evaluation) 
+in the GitHub repository.
+
+The `.jar` file located in the top level folder, is executable. It will open a GUI that allows a file to be loaded into it. The jar file may also be used 
+in the command line. Use the command `java -jar path/to/jar -d` in order to open a REPL. This will allow you to pass a path to the program to generate a schema diagram.
+
+Please email `Shimizu.5@wright.edu` in order to report a bug or use the issues in GitHub.
+
+**Downloads:**
+- [SDOnt Initial Report](/files/pdf/sdont_initial_report.pdf)
+
+---
+
+### [Rendering OWL Ontologies as Disjunctive and Existential Rules](https://github.com/cogan-shimizu-wsu/Logician)
+
+**Downloads:**
+- [Evaluation](/files/misc/Evaluation.zip)
+- [Rules Statistics](/files/misc/rules_statistics.zip)
+
+---
+
+### [OPLaTab](https://github.com/cogan-shimizu-wsu/OPLaPlugin)
+
+Installation Guide:
+1. Extract the JAR file from the attached zip file.  
+2. Navigate to your Protege installation folder.  
+3. Navigate to the folder called `plugins`.  
+4. Place the JAR file into that folder.  
+5. Start Protege.  
+6. Open the `View` menu and choose `OPLaTab`.  
+7. Load an OWL file.  
+8. Fin!
+
+**Downloads:**
+- [OPLaTab 1.0.0](/files/misc/OPLaTab-1.0.0.zip)
+
+---
+
+### [MODL: A Modular Ontology Design Library](https://github.com/cogan-shimizu-wsu/modular-ontology-design-library)
+Pattern-based, modular ontologies have several beneficial properties that lend themselves to FAIR data practices, 
+especially as it pertains to Interoperability and Reusability. However, developing such ontologies has a high upfront cost, 
+e.g. reusing a pattern is predicated upon being aware of its existence in the first place. Thus, to help overcome these 
+barriers, we have developed MODL: a modular ontology design library. MODL is a curated collection of well-documented ontology 
+design patterns, drawn from a wide variety of interdisciplinary use-cases.
+
+This page serves as a dereferenceable URL for the MODL namespace. We also take advantage of this space to distribute 
+Version 1.0.0 of MODL as a ZIP archive. It contains all the patterns, documentation, and the MODL OPLa ontology. 
+
+**Main contact:** [Cogan Shimizu](mailto:cogan.shimizu@wright.edu)
+
+**Key reference:**  
+- Cogan Shimizu, Pascal Hitzler, Quinn Hirt, [MODL: A Modular Ontology Design Library](https://ceur-ws.org/Vol-2459/paper4.pdf). 
+In: Krzysztof Janowicz, Adila Alfa Krisnadhi, Maria Poveda Villalon, Karl Hammar, Cogan Shimizu (eds.), Proceedings of the 10th
+Workshop on Ontology Design and Patterns (WOP 2019) co-located with 18th International Semantic Web Conference (ISWC 2019), 
+Auckland, New Zealand, October 27, 2019. CEUR Workshop Proceedings 2459, CEUR-WS.org 2019, pp. 47–58.
+
+For **tutorials** on modular ontology design using patterns, please see the following:
+
+- Pascal Hitzler, Adila Krisnadhi,  
+  [A Tutorial on Modular Ontology Modeling with Ontology Design Patterns: The Cooking Recipes Ontology](http://www.semantic-web-journal.net/system/files/swj1559.pdf).  
+  Technical Report, DaSe Lab, Department of Computer Science and Engineering, Wright State University, Dayton, OH, August 2018.
+
+- Adila Krisnadhi, Pascal Hitzler,  
+  [Modeling With Ontology Design Patterns: Chess Games As a Worked Example](https://www.iospress.com/catalog/books/ontology-engineering-with-ontology-design-patterns).  
+  In: Pascal Hitzler, Aldo Gangemi, Krzysztof Janowicz, Adila Krisnadhi, Valentina Presutti (eds.), Ontology Engineering with Ontology Design Patterns: Foundations and 
+  Applications. *Studies on the Semantic Web*, Vol. 25, IOS Press/AKA Verlag, 2016, pp. 3–22.
+
+  **Downloads:**
+  - [MODL Paper](/files/pdf/modl_paper.pdf)
+  - [MODL Documentation](/files/pdf/modl_documentation.pdf)
+  - [MODL](/files/misc/MODL.zip)
+
+---
+
+### Semantically Enhanced Visualization Framework
+Relevant Links:
+- [Knowledge Analytics using Semantic Technologies](/projects/knowledge-analytics-using-semantic-technologies)
+- [SDont](https://github.com/Data-Semantics-Laboratory/SDont)
+- [MicroblogEntryOWL](https://github.com/Data-Semantics-Laboratory/MicroblogEntryOWL)
+- [UserInterestPattern](https://github.com/Data-Semantics-Laboratory/user-interest-pattern)
+
+---
+
 ## Key Projects
+
+- #### [KnowWhereGraph: Enriching and Linking Cross-Domain Knowledge Graphs using Spatially-Explicit AI Technologies](/projects/knowwheregraph-enriching-and-linking-cross-domain)
+- #### [EarthCube Building Blocks: GeoLink - Leveraging Semantics and Linked Data for Data Sharing and Discovery in the Geosciences](/projects/earthcube-building-blocks-geolink-leveraging-semantics)
+- #### [TROn - Tractable Reasoning with Ontologies](/projects/tron-tractable-reasoning-with-ontologies)
+- #### [Ontology Modeling for the Slave Trade](/projects/https://daselab.cs.ksu.edu/projects/ontology-modeling-slave-trade)
+- #### [Convergence Accelerator Phase I (RAISE): Spatially-Explicit Models, Methods, and Services for Open Knowledge Networks](/projects/convergence-accelerator-phase-i-raise-spatially)
+- #### [Modular Ontology Modeling for Food Supply Chains](/projects/modular-ontology-modeling-for-food-supply)
+- #### [Towards Undifferentiated Cognitive Agents: Determining Gaps in Comprehension](/projects/towards-undifferentiated-cognitive-agents-determining-gaps-in-comprehension)

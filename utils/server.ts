@@ -9,7 +9,7 @@ import { promisify } from 'util'
 
 /* 
     WORKFLOW:
-    1. Initally Build to Staging Directory, then
+    1. Initially Build to Staging Directory, then
 */
 
 export async function webServer() {
