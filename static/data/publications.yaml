@@ -1962,6 +1962,7 @@ rule-based-owl-modeling-with-rowltab-protege-plugin:
     projects:
     - tron-tractable-reasoning-with-ontologies
     pub_type: Miscellaneous
+    presentation: https://videolectures.net/videos/eswc2017_hitzler_OWL_modeling
 
 semi-supervised-approach-to-monitoring-clinical-depressive-symptoms-in-social-media:
     title: Semi-Supervised Approach to Monitoring Clinical Depressive Symptoms
@@ -2365,6 +2366,7 @@ on-the-roles-of-logical-axiomatizations-for-ontologies:
     publisher: IOS Press
     organization: IOS Press
     address: Amsterdam
+    slides_and_audio: https://ontologforum.org/index.php/ConferenceCall_2017_03_22
 
 semantic-data-integration:
     title: Semantic Data Integration
@@ -3329,6 +3331,7 @@ pushing-the-boundaries-of-tractable-ontology-reasoning:
     keywords: [ description logics, OWL, Tractable Reasoning ]
     doi: 10.1007/978-3-319-11915-1_10
     url: http://dx.doi.org/10.1007/978-3-319-11915-1_10
+    presentation: https://videolectures.net/videos/iswc2014_carral_boundaries
 
 rasp-qs-efficient-and-confidential-query-services-in-the-cloud:
     title: 'RASP-QS: Efficient and Confidential Query Services in the Cloud'
@@ -5146,6 +5149,7 @@ foundations-of-semantic-web-technologies:
     publisher: Chapman and Hall/CRC Press
     organization: Chapman and Hall/CRC Press
     issn: 9781420090505
+    link: https://www.semantic-web-book.org/
 
 the-importance-of-being-neural-symbolic-a-wilde-position:
     title: The Importance of Being Neural-Symbolic – A Wilde Position

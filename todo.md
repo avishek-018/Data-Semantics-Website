@@ -2,12 +2,11 @@
 
 - Ensure Formatting Works on Mobile (run server on Tailscale to test w/Android)
 - Populate Research Page
-- Include Publications on Projects, download PDFs available
 - Finish Search Bar
-- Make constant Formatting from edges of page
 - Scrape Blog Posts
+- Cross-list authors, etc.
 - Populate Authors.yaml file
 - Deploy on GitHub Pages
 - Build validator for YAML
 - Pull all PDFs down
-- Get Abstracts for every page
+- Get Abstracts for every page (later)

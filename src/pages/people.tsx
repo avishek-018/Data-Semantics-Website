@@ -20,7 +20,7 @@ const PhotoGrid = ({ category, p_list }): JSX.Element => {
                                 className='profileImg' 
                                 src={data.image_url} 
                             />
-                            <p>{name}</p>
+                            <h4>{name}</h4>
                         </Link>
                     );
                 })}
