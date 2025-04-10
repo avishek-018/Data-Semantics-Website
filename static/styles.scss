@@ -10,7 +10,6 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
   --borders: var(--ifm-font-color-base) solid 1px;
-  --mobile-width: 996px;
 
   .slick-arrow {
     filter: invert(100%);
@@ -67,9 +66,19 @@
   align-items: flex-start;
 }
 
+// Mobile transformations
 @media (max-width: 996px) {
   .parent {
     flex-direction: column;
+  }
+
+  .toggle_vylO {
+    transform: translateX(110px);
+    transform-origin: left;
+  }
+
+  .main-wrapper {
+    padding: 25px;
   }
 }
 
@@ -91,13 +100,6 @@ a.navbar__brand {
 
 nav.navbar--fixed-top {
   border-bottom: var(--borders);
-}
-
-@media (max-width: var(--mobileWidth)) {
-  .toggle_vylO {
-    transform: translateX(85px);
-    transform-origin: left;
-  }
 }
 
 .profileLink {
